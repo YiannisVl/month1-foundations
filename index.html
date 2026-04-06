@@ -44,6 +44,52 @@
         χτίζοντας καθημερινά μικρά projects και πρακτική εμπειρία.
       </p>
     </section>
+
+    <section>
+        <h2>Επικοινωνία</h2>
+        <form>
+            <div>
+                <label for="name">Όνομα</label><br />
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Γράψε το όνομα σου..."
+                    required/>
+            </div>
+            <div>
+                <label for="email">Email</label><br />
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example.email.com"
+                    required/>
+            </div>
+            <div>
+                <label for="name">Κατηγορία</label><br />
+                <select id="category" name="category">
+                    <option value="">--Επίλεξε--</option>
+                    <option value="job">Εργασία</option>
+                    <option value="project">Project</option>
+                    <option value="other">Άλλο</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Μήνυμα</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Γραψε το μηνυμα σου..."
+                    required
+                ></textarea>
+            </div>
+            <div>
+                <button type="submit">Αποστολή</button>
+            </div>        
+        </form>
+    </section>
   </main>
 
   <footer>
