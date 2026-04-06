@@ -9,6 +9,13 @@ A simple personal HTML page that includes:
 - skills list
 - useful links
 - about me section
+- contact form
+
+## Features
+- Semantic HTML structure (header, main, section, footer)
+- Contact form with validation
+- External links and assets
+- Clean and readable layout
 
 ## Technologies
 - HTML5
